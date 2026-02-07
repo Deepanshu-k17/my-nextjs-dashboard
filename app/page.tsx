@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <p className="text-lg text-white drop-shadow-md">A simple authentication app</p>
         <div>
-          <LoginButton>
+          <LoginButton mode="redirect">
             <Button variant="secondary" size="lg">
               Sign in
             </Button>
